@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-style: normal;
+  src: local('Roboto'), local('Roboto-Regular'), url('https://mik3se.github.io/fonts/Roboto-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-style: normal;
+  src: url('https://meerpup.github.io/fonts/Roboto-Bold.woff') format('woff');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('https://mik3se.github.io/fonts/Roboto-Bold.woff') format('woff');
+}
+
+body {
+  font-family: Roboto;
+  color: #c9d1d9;
+  background-color: #0d1117;
+  text-align: left;
+}
+.centered {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+li {
+  font-size: 16px;
+}
+a.textLink:link{
+  font-size: 20px;
+  color: #f0f6fc;
+}
+a.textLink:visited {
+  font-size: 20px;
+  color: #f0f6fc;
+}
+a.textLink:hover {
+  font-size: 20px;
+  color: #babbbd;
+}
+a.textLink:active {
+  font-size: 20px;
+  color: #babbbd;
+}
+.btn-group .button {
+  background-color: #161b22; /* Gray */
+  border: 1px solid #0d1117;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #0d1117;
+}
+.pageRoot {
+  margin: 0 auto;
+  min-width: 850px;
+  /* Use border-spacing instead of border-collapse, otherwise IE doesn't show the shadow */
+  border-spacing:0;
+  padding-left: 18em;
+  padding-right: 18em;
+}
+.content {
+  padding: 18px;
+  padding-top: 10px;
+  text-align: left;
+  text-indent: 0px;
+  margin: 10px;
+}
+.footer {
+  font-size:small;
+  text-align: right;
+  background-color: #010409;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 2.5rem;            /* Footer height */
+}
+.footerIcon {
+}
+.footerIcon IMG {
+  margin-bottom: -0.3em;
+  margin-right: 0.7em;
+  width: 1.2em;
+  height: 1.2em;
+}
+a.footerLink:link{
+  color: rgb(0,100,255);
+}
+a.footerLink:visited {
+  color: rgb(255,0,255);
+}
+a.footerLink:hover {
+  color: rgb(0,255,255);
+}
+a.footerLink:active {
+  color: rgb(0,255,0);
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
