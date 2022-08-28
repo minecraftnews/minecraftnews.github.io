@@ -22,7 +22,7 @@ body {
   text-align: center;
 }
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 li {
   font-size: 16px;
@@ -79,16 +79,26 @@ a.textLink:active {
   margin: 10px;
 }
 .footer {
+  position: absolute;
   font-size:small;
-  text-align: right;
   background-color: #010409;
-  padding-left: 0.3em;
+  padding-left: 25em;
   padding-right: 0.3em;
   padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  position: absolute;
+  padding-bottom: 2em;
   bottom: 0;
-  width: 99%;
+  width: 83%;
+  height: 2.5rem;            /* Footer height */
+}
+.footer-bottom {
+  font-size:small;
+  background-color: #010409;
+  padding-left: 25em;
+  padding-right: 0.3em;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  bottom: 0;
+  width: 83%;
   height: 2.5rem;            /* Footer height */
 }
 .footerIcon {
@@ -117,4 +127,7 @@ a.footerLink:active {
 }
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
+}
+.avatar {
+  border-radius: 50%;
 }
