@@ -7,18 +7,10 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="../styles/style.css" rel="stylesheet" type="text/css">
 	<script type = "text/javascript">
-	window.onload=function(){setTimeout(showPopup,500)};
-
-	function showPopup()
+	window.onload=function(){setTimeout(hidePopup,400)};
+	function hidePopup()
 	{
-   	var img = document.createElement("img");
-    	img.src = "rickroll.jpg";
-    	img.width = 1920;
-    	img.height = 1080;
-    	img.alt = "Never gonna gove you up";
-
-    	// This next line will just add it to the <body> tag
-    	document.body.appendChild(img);
+		document.getElementById("rickrollimage").style.visibility = "hidden";
 	}
 	</script>
   </head>
@@ -32,5 +24,6 @@
 	 </div>
         <div class="footer">
         </div>
+		<img id="rickrollimage" src="rickroll.jpg" width=1920 height=1080 alt="Never gonna give you up"></img>
   </body>
 </html>
